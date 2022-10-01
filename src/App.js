@@ -1,7 +1,8 @@
+import Faq from "./components/faq/Faq";
 const App = () => {
   return (
     <div>
-      Hello World
+      <Faq />
     </div>
   );
 }
