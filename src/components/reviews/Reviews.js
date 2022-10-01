@@ -7,7 +7,7 @@ const Reviews = () => {
       <h2 className='text-5xl font-extrabold text-center mb-[0.5rem] text-indigo-600'>
         What our customers are saying...
       </h2>
-      <div className='text-center mb-20'>2,157 people have said how good we are</div>
+      <div className='text-center mb-20 text-neutral-800'>2,157 people have said how good we are</div>
       <div className='flex flex-wrap justify-center mt-10 px-48'>
         {ReviewsList.map((review, index) => (
           <div key={index} className='w-[381px] my-3 mx-4'>
