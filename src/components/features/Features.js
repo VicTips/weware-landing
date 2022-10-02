@@ -23,7 +23,7 @@ const Features = () => {
           <div className='text-white md:w-[445px]'>
             <h2 className='text-5xl font-extrabold pr-6'>Join today for early access!</h2>
             <div className='font-semibold text-lg my-6'>Create custom landing pages with Rareblocks that converts more visitors than any website. With lots of unique blocks, you can easily build a page.</div>
-            <button className='text-lg font-bold text-indigo-700 bg-white rounded-lg px-7 py-2'>Get early access</button>
+            <button className='text-lg font-bold text-indigo-700 bg-white rounded-lg px-7 py-2 hover:scale-105'>Get early access</button>
           </div>
         </div>
       </div>

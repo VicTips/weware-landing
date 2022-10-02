@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <div>
       <Navbar />
-      <div className='my-16 flex pr-14 pl-24 items-center gap-20'>
+      <div className='my-16 flex justify-evenly pl-6 items-center flex-wrap'>
         <div>
-          <h1 className='text-[4.25rem] font-extrabold tracking-tight leading-none text-blue-950'>Organized information for remote teams .</h1>
+          <h1 className='text-[4.25rem] font-extrabold tracking-tight leading-none text-blue-950 max-w-[504px]'>Organized information for remote teams .</h1>
           <div className='text-blue-950 text-lg my-8 max-w-[533px]'>Easy to find knowledge, content and proceses. Team announcements, team engagement and profiles. 🙌</div>
-          <button className='text-lg text-white bg-indigo-500 font-extrabold py-2 px-12 rounded-lg border hover:bg-indigo-400 border-indigo-800 shadow-md shadow-indigo-200'>Get early access</button>
+          <button className='text-lg text-white bg-indigo-500 font-extrabold py-2 px-12 rounded-lg border hover:bg-indigo-400 border-indigo-800 shadow-md shadow-indigo-200 md:hover:scale-105'>Get early access</button>
           <div className='text-stone-600 mt-8'>We’re sending out invites all the time. 14 day free trial, no cc required.</div>
           <div className='flex text-amber-400 gap-0.5 mt-10'>
             {/* Star icons */}

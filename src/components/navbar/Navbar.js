@@ -21,14 +21,14 @@ const Navbar = () => {
               </button>
             </div>
           </div>
-          <ul className={`md:flex md:items-center z-1 md:z-auto md:static absolute bg-white md:w-auto w-full pl-5 mt-2 md:mt-0 md:pl-0 md:opacity-100 transition-all ease-in duration-500 ${expanded ? 'opacity-100 left-0' : 'opacity-0 left-full'}`}>
-            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer">Features</li>
-            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer">Pricing</li>
-            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer">Blog</li>
-            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer">What's new?</li>
+          <ul className={`md:flex md:items-center z-1 md:z-auto md:static absolute bg-white md:w-auto w-full pl-5 mt-2 md:mt-0 md:pl-0 md:opacity-100 transition-all ease-in duration-500 ${expanded ? 'opacity-100 left-0' : 'opacity-0 top-full'}`}>
+            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer md:hover:scale-105">Features</li>
+            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer md:hover:scale-105">Pricing</li>
+            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer md:hover:scale-105">Blog</li>
+            <li className="text-stone-600 block px-3 py-2 rounded-md font-extrabold cursor-pointer md:hover:scale-105">What's new?</li>
           </ul>
-          <div className={`flex-1 md:flex md:items-center md:justify-end z-1 md:z-auto md:static absolute bg-white mt-[168px] md:mt-0 md:w-auto w-full pb-6 md:py-0 pl-5 md:pl-0 md:opacity-100 shadow-lg md:shadow-none transition-all ease-in duration-500 ${expanded ? 'opacity-100 left-0' : 'opacity-0 left-full'}`}>
-            <button className='font-extrabold text-white bg-indigo-500 hover:bg-indigo-400 px-3 py-2 rounded-lg border border-indigo-800 shadow-md shadow-indigo-200'>
+          <div className={`flex-1 md:flex md:items-center md:justify-end z-1 md:z-auto md:static absolute bg-white mt-[168px] md:mt-0 md:w-auto w-full pb-6 md:py-0 pl-5 md:pl-0 md:opacity-100 shadow-lg md:shadow-none transition-all ease-in duration-500 ${expanded ? 'opacity-100 left-0' : 'opacity-0 top-full'}`}>
+            <button className='font-extrabold text-white bg-indigo-500 hover:bg-indigo-400 px-3 py-2 rounded-lg border border-indigo-800 shadow-md shadow-indigo-200 md:hover:scale-105'>
               Get early access
             </button>
           </div>
