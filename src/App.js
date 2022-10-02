@@ -1,4 +1,5 @@
 import Navbar from "./components/navbar/Navbar";
+import Header from "./components/header/Header";
 import Features from "./components/features/Features";
 import Reviews from "./components/reviews/Reviews"
 import Faq from "./components/faq/Faq";
@@ -8,6 +9,7 @@ const App = () => {
   return (
     <div>
       <Navbar />
+      <Header />
       <Features />
       <Reviews />
       <Faq />
