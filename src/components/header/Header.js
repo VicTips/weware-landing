@@ -41,7 +41,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <img src='https://res.cloudinary.com/ds90phfgd/image/upload/v1664680666/wikit/Header_oawuud.png' alt='header' />
+        <img className='pr-6 lg:pr-0' src='https://res.cloudinary.com/ds90phfgd/image/upload/v1664680666/wikit/Header_oawuud.png' alt='header' />
       </div>
     </div>
   )
