@@ -17,10 +17,10 @@ const Features = () => {
         ))}
       </div>
       <div className='flex justify-center'>
-        <div className='w-[856px] h-[410px] bg-indigo-500 rounded-2xl relative flex items-center justify-end px-12'>
-          <div className='absolute bg-gradient-5-3 h-[250px] w-[225px] -z-1 bottom-14 left-16'></div>
-          <img className='absolute bottom-0 left-10' src='https://res.cloudinary.com/ds90phfgd/image/upload/v1664666460/wikit/Join_nsbjrl.png' alt='join' />
-          <div className='text-white w-[445px]'>
+        <div className='lg:w-[856px] lg:h-[410px] bg-indigo-500 rounded-2xl relative flex items-center justify-center lg:justify-end px-12 py-10 lg:py-0'>
+          <div className='absolute bg-gradient-5-3 h-[250px] w-[225px] -z-1 bottom-14 left-16 hidden lg:block'></div>
+          <img className='absolute bottom-0 left-10 hidden lg:block' src='https://res.cloudinary.com/ds90phfgd/image/upload/v1664666460/wikit/Join_nsbjrl.png' alt='join' />
+          <div className='text-white md:w-[445px]'>
             <h2 className='text-5xl font-extrabold pr-6'>Join today for early access!</h2>
             <div className='font-semibold text-lg my-6'>Create custom landing pages with Rareblocks that converts more visitors than any website. With lots of unique blocks, you can easily build a page.</div>
             <button className='text-lg font-bold text-indigo-700 bg-white rounded-lg px-7 py-2'>Get early access</button>

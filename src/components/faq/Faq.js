@@ -10,7 +10,7 @@ const Faq = () => {
           With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
         </div>
       </div>
-      <div className='grid grid-cols-1 sm:grid-cols-2 mt-14 px-48'>
+      <div className='grid grid-cols-1 sm:grid-cols-2 mt-14 md:px-24 lg:px-48'>
         {QuestionsList.map((question, index) => (
           <div key={index} className='p-5'>
             <div className='font-bold text-indigo-600 text-xl'>{question.question}</div>

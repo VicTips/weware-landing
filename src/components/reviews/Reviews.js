@@ -8,7 +8,7 @@ const Reviews = () => {
         What our customers are saying...
       </h2>
       <div className='text-center mb-20 text-neutral-800'>2,157 people have said how good we are</div>
-      <div className='flex flex-wrap justify-center mt-10 px-48'>
+      <div className='flex flex-wrap justify-center mt-10 xl:px-36'>
         {ReviewsList.map((review, index) => (
           <div key={index} className='w-[381px] my-3 mx-4'>
             <div className='py-[1.625rem] px-[1.75rem] bg-stone-100 mb-5 rounded-xl'>{review.review}</div>
