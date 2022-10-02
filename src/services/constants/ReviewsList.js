@@ -1,4 +1,4 @@
-const Reviews = [
+const ReviewsList = [
   {
     review: "“You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change.”",
     name: "Devon Lane",
@@ -37,4 +37,4 @@ const Reviews = [
   },
 ]
 
-export default Reviews
+export default ReviewsList

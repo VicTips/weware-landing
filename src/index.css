@@ -12,3 +12,46 @@ body {
 code {
   font-family: "Nunito", sans-serif;
 }
+
+.bg-gradient-5-1 {
+  background: linear-gradient(
+    90deg,
+    #44ff9a -0.55%,
+    #44b0ff 22.86%,
+    #8b44ff 48.36%,
+    #ff6644 73.33%,
+    #ebff70 99.34%
+  );
+  opacity: 0.3;
+  border-radius: 6px;
+  filter: blur(32.2508px);
+}
+
+.bg-gradient-5-2 {
+  background: linear-gradient(
+    90deg,
+    #44ff9a -0.55%,
+    #44b0ff 22.86%,
+    #8b44ff 48.36%,
+    #ff6644 73.33%,
+    #ebff70 99.34%
+  );
+  opacity: 0.3;
+  border-radius: 6px;
+  filter: blur(32.2508px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.bg-gradient-5-3 {
+  background: linear-gradient(
+    90deg,
+    #44ff9a -0.55%,
+    #44b0ff 22.86%,
+    #8b44ff 48.36%,
+    #ff6644 73.33%,
+    #ebff70 99.34%
+  );
+  border-radius: 6px;
+  filter: blur(32.2508px);
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
